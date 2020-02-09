@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "6e564d62-86b1-4d86-a275-d2c57b8e1196",
+            "Value": {
+                "id": "c610c646-83c4-4158-bb90-4fa5aaa62c40",
+                "resourcePath": "objects\\player_1\\player_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6efc7cb7-b08d-47a5-9be5-55adb3df5218",
             "Value": {
                 "id": "7356ff2e-4e8b-4478-baa2-ca12a213d165",
@@ -156,6 +164,14 @@
                 "id": "b7879ba2-4ee7-4f91-8f84-e997a212871c",
                 "resourcePath": "views\\87f3db66-3d56-40bb-a471-cb3a4a08c8b4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8a224e52-2e41-4d5d-ac3b-e983b62f8254",
+            "Value": {
+                "id": "25a9a39e-787c-47a4-bd1c-2172b00093b9",
+                "resourcePath": "objects\\Controller\\Controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
