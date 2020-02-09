@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1cf30647-3eb3-49bb-a6a3-dbd2ea11f176",
+            "Value": {
+                "id": "f557f3a9-1c91-4b00-b547-d8a39c173f5d",
+                "resourcePath": "sprites\\s1_thrust\\s1_thrust.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d308e14-728d-499b-bda1-5c2a9e84e001",
             "Value": {
                 "id": "0da600d5-61a8-42ce-ac95-2b93854a8442",
@@ -55,11 +63,43 @@
             }
         },
         {
+            "Key": "205b2e77-50a1-4258-bfc2-cbaf2414982b",
+            "Value": {
+                "id": "83a93622-3711-42ec-9230-9e75a066f496",
+                "resourcePath": "sprites\\sp_sun\\sp_sun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22432cc9-38e6-4f09-9893-9a88467e78db",
+            "Value": {
+                "id": "96a70eb5-fab5-4e41-8bdd-a7db8e1abddf",
+                "resourcePath": "sprites\\s2_idle\\s2_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3421249c-e5c9-4133-9661-7f7acc0fd839",
+            "Value": {
+                "id": "e5c6a9f5-043c-456c-9241-0f6a74ea925c",
+                "resourcePath": "sprites\\s1_idle\\s1_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36c6d76b-4e32-4bba-8401-3ab976d55c72",
             "Value": {
                 "id": "a1761678-50bf-41a2-a6e0-dceb382493c7",
                 "resourcePath": "views\\36c6d76b-4e32-4bba-8401-3ab976d55c72.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4a82681f-2170-4fd3-86d0-e6ddfe01db2a",
+            "Value": {
+                "id": "fb4f387a-393e-404a-8629-4861baafb05a",
+                "resourcePath": "objects\\Sun\\Sun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -164,6 +204,14 @@
                 "id": "02359dd9-6c80-44b6-a416-4e403a1e1102",
                 "resourcePath": "views\\e212981d-5eae-43fc-9a9c-8ef700a3b8f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f67dda72-b250-4a1f-9d5d-28693086b501",
+            "Value": {
+                "id": "520ce8b6-81ef-40c2-977c-e4fce3154846",
+                "resourcePath": "sprites\\s2_thrust\\s2_thrust.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
