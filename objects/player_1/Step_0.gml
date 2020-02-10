@@ -14,7 +14,9 @@ if(keyboard_check(vk_down))
 {
 	hspeed = hspeed-thrust*dsin(dir);	
 	vspeed = vspeed-thrust*dcos(dir);	
+	if(sprite_index!=sp_thrust) sprite_index=sp_thrust;
 }
+else sprite_index = sp_idle;
 
 //apply gravity
 delX= sun.x-x;
@@ -56,8 +58,8 @@ if(keyboard_check(vk_space))
 	muzz_hs = (muzz_x-x)*missile_speed;
 	muzz_vs = (muzz_y-y)*missile_speed;
 	miss1 = instance_create_depth(muzz_x,muzz_y,0,missile);
-	miss1.hspeed = muzz_hs;
-	miss1.vspeed = muzz_vs;
+	miss1.hspeed = hspeed + muzz_hs;
+	miss1.vspeed = vspeed + muzz_vs;
 	miss1.image_angle = image_angle;
 	
 }

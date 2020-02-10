@@ -17,7 +17,7 @@ hspeed += -v0*dsin(dir);
 vspeed += -v0*dcos(dir);
 
 //Gravity 
-grv = 100; //F=Gmm/(r*r). We replace Gmm with grv our constant
+grv = 300; //F=Gmm/(r*r). We replace Gmm with grv our constant
 sun = Sun; //our sun object where we calculate gravity from
 
 
