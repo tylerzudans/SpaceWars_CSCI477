@@ -3,13 +3,11 @@
 
 //controls and constants
 thrust = 0.05;
-missile_speed = 2;
 turnspeed = 2;
-muzz_distance = 1;
 
 
 //initial conditions
-v0 = 0.9; //initial velocity
+v0 = 0.7; //initial velocity
 theta0 = 0; //initial angle pointing up is 0, left is +, right is -
 dir = theta0; //current angle of ship
 

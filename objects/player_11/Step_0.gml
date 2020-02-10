@@ -45,19 +45,10 @@ else// ship in bottom quadrant
 	}
 }
 s_theta%=360;
+
+
+
 hspeed = hspeed - grv/power(r,2)*dcos(s_theta);
 vspeed = vspeed + grv/power(r,2)*dsin(s_theta);
 
-//shoot missiles
-if(keyboard_check(vk_space))
-{
-	muzz_x= x-dsin(dir)*muzz_distance //exit location x value
-	muzz_y= y-dcos(dir)*muzz_distance //exit location y value
-	muzz_hs = (muzz_x-x)*missile_speed;
-	muzz_vs = (muzz_y-y)*missile_speed;
-	miss1 = instance_create_depth(muzz_x,muzz_y,0,missile);
-	miss1.hspeed = muzz_hs;
-	miss1.vspeed = muzz_vs;
-	miss1.image_angle = image_angle;
-	
-}
+//draw_text(10,10,s_theta);

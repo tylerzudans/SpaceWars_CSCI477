@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1e689780-51f3-4b73-afd8-d96a720af6a3",
+            "Value": {
+                "id": "91ffc2d9-4aa3-49ee-8b49-ba62ea5c8038",
+                "resourcePath": "sprites\\sp_missile\\sp_missile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1fbd9092-3dbd-4b01-b37c-2b585517335c",
             "Value": {
                 "id": "1c01fd3a-2aa9-42d9-9908-04e5187fa163",
@@ -170,7 +178,15 @@
             "Key": "8a224e52-2e41-4d5d-ac3b-e983b62f8254",
             "Value": {
                 "id": "25a9a39e-787c-47a4-bd1c-2172b00093b9",
-                "resourcePath": "objects\\Controller\\Controller.yy",
+                "resourcePath": "objects\\DebugController\\DebugController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b827c806-3d54-4d19-8d42-606f1cb96823",
+            "Value": {
+                "id": "da3082f7-90e2-43fc-b45f-7877d7ee7a69",
+                "resourcePath": "objects\\missile\\missile.yy",
                 "resourceType": "GMObject"
             }
         },
