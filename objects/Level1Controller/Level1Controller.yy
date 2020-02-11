@@ -1,28 +1,18 @@
 {
-    "id": "b827c806-3d54-4d19-8d42-606f1cb96823",
+    "id": "86909768-3746-48f9-9580-f4e09439a8cd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "player_11",
+    "name": "Level1Controller",
     "eventList": [
         {
-            "id": "dae3c71b-1e61-43d4-8b50-c50158be62ad",
+            "id": "4f8a28b3-9ea7-4fd6-b651-92780f5fcc74",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b827c806-3d54-4d19-8d42-606f1cb96823"
-        },
-        {
-            "id": "01e21bd5-e633-44b1-b69c-6ac1cb2c0e2b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b827c806-3d54-4d19-8d42-606f1cb96823"
+            "m_owner": "86909768-3746-48f9-9580-f4e09439a8cd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "3421249c-e5c9-4133-9661-7f7acc0fd839",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

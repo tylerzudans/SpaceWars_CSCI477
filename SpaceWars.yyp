@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "86909768-3746-48f9-9580-f4e09439a8cd",
+            "Value": {
+                "id": "78f361c6-bd25-4270-9f17-e8cb5e381101",
+                "resourcePath": "objects\\Level1Controller\\Level1Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "87f3db66-3d56-40bb-a471-cb3a4a08c8b4",
             "Value": {
                 "id": "b7879ba2-4ee7-4f91-8f84-e997a212871c",

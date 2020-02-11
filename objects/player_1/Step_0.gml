@@ -2,15 +2,15 @@
 // You can write your code in this editor
 
 //take angle input
-if(keyboard_check(vk_left)) dir+=turnspeed;
-if(keyboard_check(vk_right)) dir-=turnspeed;
+if(keyboard_check(c_left)) dir+=turnspeed;
+if(keyboard_check(c_right)) dir-=turnspeed;
 dir%=360;
 
 //reflect angle in image
 image_angle = (dir)%360;//physics forward and sprite forward are off by 90
 
 //check for thrust
-if(keyboard_check(vk_down))
+if(keyboard_check(c_thrust))
 {
 	hspeed = hspeed-thrust*dsin(dir);	
 	vspeed = vspeed-thrust*dcos(dir);	
@@ -51,7 +51,7 @@ hspeed = hspeed - grv/power(r,2)*dcos(s_theta);
 vspeed = vspeed + grv/power(r,2)*dsin(s_theta);
 
 //shoot missiles
-if(keyboard_check(vk_space))
+if(keyboard_check(c_shoot))
 {
 	muzz_x= x-dsin(dir)*muzz_distance //exit location x value
 	muzz_y= y-dcos(dir)*muzz_distance //exit location y value
@@ -63,3 +63,9 @@ if(keyboard_check(vk_space))
 	miss1.image_angle = image_angle;
 	
 }
+
+//wrap player around screen if out of bounds
+if(x>camera_get_view_width(view_camera[0])) x = 0;
+if(y>camera_get_view_height(view_camera[0])) y = 0;
+if(x<0) x = camera_get_view_width(view_camera[0]);
+if(y<0) y = camera_get_view_height(view_camera[0]);

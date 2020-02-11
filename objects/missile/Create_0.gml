@@ -4,7 +4,7 @@
 //controls and constants
 thrust = 0.0;
 turnspeed = 2;
-lifetime = 600;
+lifetime = 1200;
 
 
 //initial conditions
