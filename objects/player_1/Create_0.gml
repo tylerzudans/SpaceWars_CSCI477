@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 //constants
 thrust = 0.05;
 missile_speed = 0.125/2;
 turnspeed = 2;
 muzz_distance = 48;
+
 
 //controlls
 c_shoot = vk_up;

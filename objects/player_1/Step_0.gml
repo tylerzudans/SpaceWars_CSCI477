@@ -18,11 +18,13 @@ if(keyboard_check(c_thrust))
 }
 else sprite_index = sp_idle;
 
-//apply gravity
+//calculate numbers for applying gravity
 delX= sun.x-x;
 delY = sun.y-y;
 r=power((power((sun.x-x),2)+power((sun.y-y),2)),0.5);//distance to sun sqrt of delx and dely squared
 s_theta = darctan(delY/delX); //angle from sun to ship with x+ @0 
+
+
 //correct angle
 if(delY>=0)//Ship in top quadrants
 {
@@ -47,8 +49,14 @@ else// ship in bottom quadrant
 	}
 }
 s_theta%=360;
-hspeed = hspeed - grv/power(r,2)*dcos(s_theta);
-vspeed = vspeed + grv/power(r,2)*dsin(s_theta);
+
+//apply gravity if on
+if(global.isGravity)
+{
+	hspeed = hspeed - grv/power(r,2)*dcos(s_theta);
+	vspeed = vspeed + grv/power(r,2)*dsin(s_theta);
+}
+
 
 //shoot missiles
 if(keyboard_check(c_shoot))

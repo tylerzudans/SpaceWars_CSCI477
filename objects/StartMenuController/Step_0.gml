@@ -1,10 +1,12 @@
 /// @description create instances of screen crawling text, and continue to next level if any key is pressed.
 // You can write your code in this editor
 
+/*
 if(keyboard_check(vk_anykey))
 {
 	room_goto(room0)	
 }
+*/
 
 //increase counter
 counter++;
@@ -29,6 +31,7 @@ if(counter%gold_text_frq == 0 && object_exists(text_object)){//spawn gold text
 	text_instance.image_xscale=text_instance.image_yscale;//scale
 	text_instance.sprite_index=gold_sprite;
 	text_instance.hspeed=gold_text_spd;	
+	text_instance.image_angle=270;
 }
 
 

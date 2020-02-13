@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "090fca93-cc38-4772-8fb2-f2e626c44e5e",
+            "Value": {
+                "id": "c47e3fa7-512c-40ba-b276-8935383fe507",
+                "resourcePath": "objects\\phase1button\\phase1button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e20ff4e-2c3b-4bf6-a83b-8581b0dccfb2",
             "Value": {
                 "id": "16734d0b-7582-4dd7-99fe-f63b4f916b57",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "4d37f200-af46-4a7d-8daf-912b68d04246",
+            "Value": {
+                "id": "7d9a22f1-4b9d-4d2e-8dbd-cd4280d54798",
+                "resourcePath": "sprites\\phase1\\phase1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5deedbb3-76a3-4368-b936-416ae997ef4e",
             "Value": {
                 "id": "1549a8f6-47f1-473c-8b1a-2c7c44cb3c57",
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "6a09f8ee-95cb-4dac-b7ff-34b07e015e0c",
+            "Value": {
+                "id": "4a719675-af70-400e-9e04-83cc9d8be312",
+                "resourcePath": "sprites\\replay\\replay.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e564d62-86b1-4d86-a275-d2c57b8e1196",
             "Value": {
                 "id": "c610c646-83c4-4158-bb90-4fa5aaa62c40",
@@ -191,6 +215,30 @@
             }
         },
         {
+            "Key": "7f00bf11-77d4-4c1b-927a-016df1104ffe",
+            "Value": {
+                "id": "aac15778-49f9-44ad-99d8-65ce49cb3a1c",
+                "resourcePath": "sprites\\p2wins\\p2wins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82d91d6e-e389-46ac-b79e-e7826266b012",
+            "Value": {
+                "id": "0049e77c-cc5a-4abb-a994-d460ff3e56d2",
+                "resourcePath": "objects\\phase2button\\phase2button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "82f7a578-37e3-4e2c-8948-a3987be5ef26",
+            "Value": {
+                "id": "acd6c6f3-e1bb-4c43-a947-f1f7be8a4e2d",
+                "resourcePath": "sprites\\p1wins\\p1wins.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "86909768-3746-48f9-9580-f4e09439a8cd",
             "Value": {
                 "id": "78f361c6-bd25-4270-9f17-e8cb5e381101",
@@ -211,6 +259,22 @@
             "Value": {
                 "id": "25a9a39e-787c-47a4-bd1c-2172b00093b9",
                 "resourcePath": "objects\\DebugController\\DebugController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b3fc609a-e15e-4cdd-a54f-569d8e392cac",
+            "Value": {
+                "id": "b2662827-25ff-49b0-8769-6eb54bbc49cd",
+                "resourcePath": "sprites\\phase2\\phase2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7c376fa-604e-4eb9-9b88-0adea5c81936",
+            "Value": {
+                "id": "ffac4d85-e79d-4240-b727-de00620cd84f",
+                "resourcePath": "objects\\replayButton\\replayButton.yy",
                 "resourceType": "GMObject"
             }
         },

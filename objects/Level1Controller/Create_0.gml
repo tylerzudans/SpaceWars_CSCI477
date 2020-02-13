@@ -15,3 +15,10 @@ p2.c_left=ord("A")
 p2.c_right=ord("D")
 p2.c_thrust=ord("S")
 p2.vspeed = p2.v0;
+
+if(!global.isGravity){
+	p1.hspeed=0
+	p1.vspeed=0
+	p2.hspeed=0
+	p2.vspeed=0
+}
