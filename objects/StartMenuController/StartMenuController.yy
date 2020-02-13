@@ -1,28 +1,28 @@
 {
-    "id": "86909768-3746-48f9-9580-f4e09439a8cd",
+    "id": "3b892509-1427-44d4-904e-17d4c2a47aae",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Level1Controller",
+    "name": "StartMenuController",
     "eventList": [
         {
-            "id": "4f8a28b3-9ea7-4fd6-b651-92780f5fcc74",
+            "id": "4cba70f5-4a0b-4192-8a22-3e2deedfab99",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "86909768-3746-48f9-9580-f4e09439a8cd"
+            "m_owner": "3b892509-1427-44d4-904e-17d4c2a47aae"
         },
         {
-            "id": "935b1770-eb0f-4c81-a904-08615d6f44bc",
+            "id": "24208ab2-6164-432d-9c1e-84dcd9d4bf03",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "86909768-3746-48f9-9580-f4e09439a8cd"
+            "m_owner": "3b892509-1427-44d4-904e-17d4c2a47aae"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

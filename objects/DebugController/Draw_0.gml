@@ -3,7 +3,7 @@
 
 if(instance_number(player)>0)
 {
-	output_text = "\nPlayer x: "+string(player.x)+"y: " +string(player.y)+" d: "+string(player.dir);
+	output_text = win_text+"\nPlayer x: "+string(player.x)+"y: " +string(player.y)+" d: "+string(player.dir);
 //output_text+= "\nx: "+string(player.sun.x)+"y: " +string(player.sun.y);
 //output_text+= "\ndx: "+
 

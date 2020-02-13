@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+done = false;
 offset = 140
 p1 = instance_create_depth(x+offset,y,0,player_1);
 p1.image_xscale=3;
